@@ -1,0 +1,32 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dl2fhfx45jcrf"]
+
+[ext_resource type="Shader" uid="uid://db5tki5egum01" path="res://Shader/PSX/PSX_Water.gdshader" id="1_1rgw0"]
+[ext_resource type="Texture2D" uid="uid://boan8gdmpvdhv" path="res://Shader/PSX/TexSample/Water_001_COLOR.png" id="2_7h5os"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_1rgw0")
+shader_parameter/water_color = Color(1.5445429, 1.5445429, 1.5445429, 1)
+shader_parameter/main_texture = ExtResource("2_7h5os")
+shader_parameter/color_quantization_levels = 8.0000003325
+shader_parameter/main_tex_tiling = Vector2(2, 2)
+shader_parameter/main_tex_offset = Vector2(0, 0)
+shader_parameter/texture_scroll_speed_x = 0.05
+shader_parameter/texture_scroll_speed_y = 0.05
+shader_parameter/distortion_tex_tiling = Vector2(1, 1)
+shader_parameter/distortion_tex_offset = Vector2(0, 0)
+shader_parameter/distortion_scroll_speed_x = 0.03
+shader_parameter/distortion_scroll_speed_y = 0.03
+shader_parameter/distortion_strength = 0.05
+shader_parameter/ripple_center = Vector3(0, 0, 0)
+shader_parameter/ripple_speed = 1.0
+shader_parameter/ripple_strength = 0.010000000475
+shader_parameter/ripple_density = 5.0
+shader_parameter/enable_waves = false
+shader_parameter/wave_amplitude = 0.04000000120148
+shader_parameter/wave_frequency = 2.0
+shader_parameter/wave_speed = 1.0
+shader_parameter/enable_jitter = true
+shader_parameter/jitter_intensity = 16.000000285
+shader_parameter/enable_affine_texture = true
+shader_parameter/enable_dithering = false

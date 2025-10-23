@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://d1ktk4a0hqptu"]
+
+[ext_resource type="Shader" uid="uid://db8ekvoek4htq" path="res://Shader/PSX/PSX_Opaque.gdshader" id="1_yvye5"]
+[ext_resource type="Texture2D" uid="uid://botclw5gqsfes" path="res://Shader/PSX/TexSample/Brick 1 - 128x128 1.png" id="2_yvye5"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_yvye5")
+shader_parameter/albedo_color = Color(1, 1, 1, 1)
+shader_parameter/main_texture = ExtResource("2_yvye5")
+shader_parameter/jitter_intensity = 14.0000006175
+shader_parameter/tiling = Vector2(2, 2)
+shader_parameter/offset = Vector2(0, 0)
+shader_parameter/enable_jitter = true
+shader_parameter/enable_affine_texture = true
+shader_parameter/color_depth = 14.00000057

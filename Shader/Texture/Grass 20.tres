@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://c52dfrsxm77ay"]
+
+[ext_resource type="Shader" uid="uid://db8ekvoek4htq" path="res://Shader/PSX/PSX_Opaque.gdshader" id="1_ijfjw"]
+[ext_resource type="Texture2D" uid="uid://boei1yu1c1pwj" path="res://Shader/PSX/TexSample/Grass 20 - 128x128.png" id="2_vlq2t"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ijfjw")
+shader_parameter/albedo_color = Color(1, 1, 1, 1)
+shader_parameter/main_texture = ExtResource("2_vlq2t")
+shader_parameter/jitter_intensity = 20.0000009025
+shader_parameter/tiling = Vector2(2, 2)
+shader_parameter/offset = Vector2(0, 0)
+shader_parameter/enable_jitter = true
+shader_parameter/enable_affine_texture = true
+shader_parameter/enable_filtering = false
+shader_parameter/enable_mipmaps = false
+shader_parameter/color_depth = 16.0
